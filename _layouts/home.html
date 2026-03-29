@@ -7,8 +7,9 @@ layout: default
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
 
+<div style="float:left; width:60%">
   {{ content }}
-
+</div>
 <div style="float:right; width:30%">
   {%- if site.posts.size > 0 -%}
     <!--<h3 class="post-list-heading">{{ page.list_title | default: "Novinky" }}</h3>-->
