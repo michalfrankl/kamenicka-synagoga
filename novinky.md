@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Novinky
-permalink: /novinky
+permalink: /novinky/
 ---
 
   {% for post in site.posts %}
