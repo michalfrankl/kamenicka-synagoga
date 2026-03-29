@@ -1,0 +1,24 @@
+.logo {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.logo img {
+  max-height: 50px;
+  width: 50px;
+}
+
+header {
+  display: flex;
+  align-items: left;
+}
+
+.container {
+  float: left;
+  width: 200px;
+}
+
+.wrapper {
+  float: left;
+  width: 200px;
+}
