@@ -1,0 +1,17 @@
+synagogue:
+  cs: Synagoga
+  en: Synagogue
+  link: /synagoga/
+association:
+  cs: Spolek
+  en: Association
+  link: /spolek/
+news:
+  cs: Novinky
+  en: News
+  link: /novinky/
+engage:
+  cs: Jak se zapojit?
+  en: How to help?
+  link: /zapojeni/
+

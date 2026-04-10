@@ -1,3 +1,5 @@
+{% assign current_lang = page.lang | default: site.default_lang %}
+
 <header class="site-header" role="banner">
 <!--
 <div class="container" style="float:left">
@@ -10,8 +12,12 @@
 
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
-    <h1><a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a></h1>
-
+      {% if current_lang == "cs" %}
+    <h1><a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.data.translations.site_title.cs | escape }}</a></h1>
+      {% endif %}
+      {% if current_lang == "en" %}
+    <h1><a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.data.translations.site_title.en | escape }}</a></h1>
+      {% endif %}
     {%- if page_paths -%}
       <nav class="site-nav">
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
@@ -31,13 +37,27 @@
             <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
             {%- endif -%}
           {%- endfor -%}
--->
+
 
     {% for item in site.data.navigation.toc %}
     <a class="page-link" href="{{ item.link | relative_url }}">{{ item.name | escape }}</a>
     {% endfor %}
+-->
+    
+    {% for p in site.data.navigation_multilang %}
+      {% if current_lang == "cs" %}
+          <a class='page-link' href="{{ p[1].link | relative_url }}">{{ p[1].cs }}</a>
+      {% endif %}
+      {% if current_lang == "en" %}
+          <a class='page-link' href="{{ p[1].link | relative_url }}">{{ p[1].en }}</a>
+      {% endif %}
+    {% endfor %}
+
+<!--    {%- include lang-switcher.html -%} -->
         </div>
+
       </nav>
+
     {%- endif -%}
   </div>
 

@@ -1,9 +1,11 @@
 ---
 layout: page
 title: Synagoga
-lang: cs
+lang: en
 permalink: /synagoga/
 ---
+
+ENG
 
 V pořadí třetí doložená a jediná zachovaná synagoga v Kamenici nad Lipou byla za účasti židovské komunity a místních elit slavnostně otevřena 18. srpna 1938. Je poslední synagogou, jež byla na území současné České republiky postavena před druhou světovou válkou, ale také jednou z posledních židovských náboženských staveb na našem území vůbec. Předchozí synagoga (na nároží Nádražní / Masarykovy ulice a Štítného ulice) byla zbořena v roce 1938, po otevření nového svatostánku.
 

@@ -4,10 +4,14 @@
 
 layout: home
 title: Synagoga v Kamenici nad Lipou
+lang: cs
 ---
+Zachraňme společně bývalou synagogu a evangelickou modlitebnu jako místo paměti!
 
-Synagoga v Kamenici nad Lipou, do nedávna využívaná jako kostel Českobratrské církve evangelické, je v současnosti jediným místem připomínajícím dějiny Židů přímo ve městě. Spolek si klade za cíl uchovat tento unikátní prostor a pomoci jej proměnit v místo připomínky, vzdělávání a setkávání zachovávající multikulturní historie Kamenice a širšího regionu.
+![](assets/images/synagoga_okno_detail.jpg)
 
-Českobratrská církev bývalou synagogu pomohla po druhé světové válce zachovat jako církevní prostor a místo paměti. Nyní je všek budova ohrožena možným prodejem a přestavbou.
+Synagoga v Kamenici nad Lipou, do nedávna využívaná jako kostel Českobratrské církve evangelické, je v současnosti jediným místem připomínajícím dějiny Židů a holokaustu přímo ve městě. Spolek si klade za cíl uchovat tento unikátní prostor a pomoci jej proměnit v místo připomínky, vzdělávání a setkávání zachovávající multikulturní historie Kamenice a širšího regionu.
+
+Českobratrská církev bývalou synagogu pomohla po druhé světové válce zachovat jako církevní prostor a s ním i památku kamenické židovské obce zničené v době holokaustu. Nyní je však budova ohrožena možným prodejem a přestavbou na rodinný dům.
 
 

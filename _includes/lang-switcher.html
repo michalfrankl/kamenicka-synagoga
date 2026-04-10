@@ -1,0 +1,27 @@
+<div class="lang-switcher">
+  {% for lang in site.languages %}
+    {% if lang == site.active_lang %}
+      <span class="lang-link active">
+        {% if lang == "en" %}
+          {{ site.data.translations.english[site.active_lang] }}
+        {% elsif lang == "cs" %}
+          {{ site.data.translations.czech[site.active_lang] }}
+        {% endif %}
+      </span>
+    {% else %}
+      {% if lang == site.default_lang %}
+        <a href=" {{ page.url }}" class="lang-link">
+      {% else %}
+        <a href="/{{ lang }}{{ page.url }}" class="lang-link">
+      {% endif %}
+          {% if lang == "en" %}
+            {{ site.data.translations.english[site.active_lang] }}
+          {% elsif lang == "cs" %}
+            {{ site.data.translations.czech[site.active_lang] }}
+          {% endif %}
+        </a>
+    {% endif %}
+    
+    {% unless forloop.last %} | {% endunless %}
+  {% endfor %}
+</div>

@@ -38,8 +38,13 @@ plugins:
 domain: michalfrankl.github.io
 baseurl: /kamenicka-synagoga/
 
-#languages: ["cs", "en"]
-#default_locale_in_subfolder: false
+languages: ["en", "cs"]
+default_lang: "cs"
+exclude_from_localization: ["assets/css", "assets/images", "assets/js"]
+parallel_localization: true
+
+sass:
+  sourcemap: never
 
 # Exclude from processing.
 # The following items will not be processed, by default.
